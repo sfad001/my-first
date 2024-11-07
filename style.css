@@ -3,11 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
 
 :root {
-  brightorange: hsl(31, 77%, 52%);
-  darkcyan: hsl(184, 100%, 22%);
-  verydarkcyan: hsl(179, 100%, 13%);
-  transparentwhite: hsla(0, 0%, 100%, 0.75);
-  verylightgray: hsl(0, 0%, 95%);
+  --brightorange: hsl(31, 77%, 52%);
+  --darkcyan: hsl(184, 100%, 22%);
+  --verydarkcyan: hsl(179, 100%, 13%);
+  --transparentwhite: hsla(0, 0%, 100%, 0.75);
+  --verylightgray: hsl(0, 0%, 95%);
 }
 
 * {
@@ -20,10 +20,10 @@ body {
 }
 .main {
   width: 800px;
-  height: 500px;
+  height: 400px;
   display: flex;
   margin: auto;
-  padding-top: 100px;
+  margin-top: 50px;
 }
 .suv {
   background-color: hsl(184, 100%, 22%);
@@ -92,12 +92,12 @@ button {
   font-family: "Big Shoulders Display", sans-serif;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .main {
     display: flex;
     flex-direction: column;
-    padding: 0 270px;
-    margin: 20px 0;
+    width: 350px;
+    margin: 20px auto;
   }
   .suv {
     padding-bottom: 30px;
