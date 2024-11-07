@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+
+:root {
+  brightorange: hsl(31, 77%, 52%);
+  darkcyan: hsl(184, 100%, 22%);
+  verydarkcyan: hsl(179, 100%, 13%);
+  transparentwhite: hsla(0, 0%, 100%, 0.75);
+  verylightgray: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1440px;
+  background-color: beige;
+}
+.main {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  margin: auto;
+  padding-top: 100px;
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+.suv p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 400;
+  font-family: "Lexend Deca", sans-serif;
+}
+.suv h2 {
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-weight: 700;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+button {
+  background-color: hsl(0, 0%, 95%);
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 30px;
+}
+
+/* ---------------------------------- */
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+.sedan p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 400;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.sedan h2 {
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-weight: 700;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+/* ======================================== */
+.lux {
+  background-color: hsl(179, 100%, 13%);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+.lux p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 400;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.lux h2 {
+  color: hsl(0, 0%, 95%);
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-weight: 700;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+@media (max-width: 400px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 270px;
+    margin: 20px 0;
+  }
+  .suv {
+    padding-bottom: 30px;
+  }
+  .sedan {
+    padding-bottom: 30px;
+  }
+  .lux {
+    padding-bottom: 30px;
+  }
+}
